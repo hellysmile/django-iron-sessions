@@ -74,7 +74,6 @@ class SessionStore(SessionBase):
         '''
         store session data to storage
         '''
-
         if must_create and self.exists(self._get_or_create_session_key()):
             raise CreateError
 

@@ -1,3 +1,4 @@
+import codecs
 from setuptools import setup
 
 
@@ -29,11 +30,9 @@ description = 'iron.io cache as Django sessions backend'
 packages = ['iron_sessions', ]
 
 
-# no with statement for python 2.5
 def long_description():
-    f = open('README.rst')
-    rst = f.read()
-    f.close()
+    with codecs.open('README.rst', 'r', encoding="utf-8") as f:
+        rst = f.read()
     return rst
 
 
