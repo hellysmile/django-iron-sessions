@@ -1,3 +1,4 @@
+====================
 django-iron-sessions
 ====================
 
@@ -19,30 +20,24 @@ with 24/7 loading for your Django appliction
 quick start
 -----------
 
-run:
-^^^^
+run::
 
     heroku addons:add iron_cache:developer
 
     pip install django-iron-sessions
 
-configure:
-^^^^^^^^^^
-
-set ``iron_sessions.session`` as your session engine:
+configure set ``iron_sessions.session`` as your session engine::
 
     SESSION_ENGINE = 'iron_sessions.session'
 
-options:
-^^^^^^^^
+options::
 
     IRON_CACHE_PROJECT_ID=<YOUR_PROJECT_ID>
     IRON_CACHE_TOKEN=<YOUR_TOKEN>
 
 *if you are on heroku, just skip it*
 
-tests:
-^^^^^^
+tests::
 
     export IRON_CACHE_PROJECT_ID=<YOUR_PROJECT_ID>
 
