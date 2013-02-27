@@ -24,7 +24,7 @@ Operating System :: POSIX
 Operating System :: Unix
 '''
 
-description = 'Iron Cache Session Backend For Django'
+description = 'iron.io cache as Django sessions backend'
 
 packages = ['iron_sessions', ]
 

@@ -2,7 +2,7 @@
 django-iron-sessions
 ====================
 
-:Info: `iron.io <http://www.iron.io/>`_ cache for your Django sessions backend
+:Info: `iron.io <http://www.iron.io/>`_ cache as Django sessions backend
 
 Why new sessions backend with non free solution?!
 -------------------------------------------------
