@@ -23,7 +23,6 @@ quick start
 run::
 
     heroku addons:add iron_cache:developer
-
     pip install django-iron-sessions
 
 configure set ``iron_sessions.session`` as your session engine::
@@ -40,7 +39,6 @@ options::
 tests::
 
     export IRON_CACHE_PROJECT_ID=<YOUR_PROJECT_ID>
-
     export IRON_CACHE_TOKEN=<YOUR_TOKEN>
     tox
 
