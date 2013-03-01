@@ -74,11 +74,12 @@ class SessionStore(SessionBase):
         '''
         store session data to storage
         '''
-        if must_create and self.exists(self._get_or_create_session_key()):
+        session_key = self._get_or_create_session_key()
+        if must_create and self.exists(session_key):
             raise CreateError
 
         data = self.encode(self._get_session(no_load=must_create))
-        to_iron = self._real_key(self._get_or_create_session_key())
+        to_iron = self._real_key(session_key)
         to_iron.update({
             'value': data,
             'options': {'expires_in': self.get_expiry_age()}
