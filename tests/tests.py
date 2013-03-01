@@ -1,3 +1,4 @@
+# tests stolen from https://github.com/martinrusev/django-redis-sessions
 from django.utils.importlib import import_module
 from django.conf import settings
 import time
