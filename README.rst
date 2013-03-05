@@ -1,8 +1,7 @@
-====================
 django-iron-sessions
 ====================
 
-:Info: `iron.io <http://www.iron.io/>`_ cache as Django sessions backend
+:info: `iron.io <http://www.iron.io/>`_ cache as Django sessions backend
 
 Why new sessions backend with non free solution?!
 -------------------------------------------------
@@ -43,4 +42,5 @@ tests::
     tox
 
 *Python 3.2+ Django 1.5+ ready,
-but currently iron_core and iron_cache have some issues with Python 3*
+but currently iron_core and iron_cache have some issues with Python 3,
+you can check my forks*
