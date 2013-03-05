@@ -38,7 +38,7 @@ def long_description():
 
 setup(
     name='django-iron-sessions',
-    version='0.0.2',
+    version='0.0.3',
     packages=packages,
     description=description,
     long_description=long_description(),
