@@ -12,7 +12,6 @@ awesome live support :)
 `iron.io <http://www.iron.io/>`_ provides 100mb and 10M API requests
 per month for free
 
-
 10 000 000 / 30 / 24 / 60 / 60 it's about 4 requests per seconds
 with 24/7 loading for your Django appliction
 
